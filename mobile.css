@@ -30,6 +30,7 @@ h1 {
     text-shadow: rgb(25, 28, 39) 1px 1px 1px;
 }
 form {
+    position: relative;
     font-size: 25px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
@@ -74,5 +75,11 @@ button:hover {
     border-color: rgb(31, 31, 31);
     transition: background-color 0.2s;
     transition: border-color 0.2s;
+}
+#olho {
+    position: absolute;
+    right: 75px;
+    bottom: 4px;
+    top: 78px;
 }
 
