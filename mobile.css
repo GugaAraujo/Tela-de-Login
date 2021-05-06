@@ -6,7 +6,7 @@ body {
     display: flex;
     color: rgba(16, 17, 17, 0.815);
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 100vh;
     background: linear-gradient(180deg, rgb(206, 228, 215), rgb(169, 203, 187), rgb(240, 246, 234));
 }
 
@@ -15,6 +15,7 @@ body {
     font-size: 25px;
     background:rgba(255, 255, 255, 0.333);
     /* background:rgba(233, 72, 72, 0.333); */
+    width: 20vh;
     margin-right: auto;
     margin-left: auto;
     padding: 80px 80px;
@@ -52,7 +53,7 @@ i {
 }
 button {
     height: 2rem;
-    width: 100%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     font-weight: bold;
