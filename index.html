@@ -1,82 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <link
+    async defer
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous"
+  />
 
+      <link rel="stylesheet"
+      type="text/css"
+      href="form.css">
+    </style>
+  </head>
+<body>
 
+    <div class="login">
+        <h1>Logo</h1>
+        <p>Login</p>
+        <form
+        action ="home.html"
+        method="POST">
+            <label><img src="user.png" width="23px"></i></label>
+            <input
+            class="form"
+            type="text"
+            name="nome"
+            required><br><br>
+            <label><img src="keyT.png" width="20px"></label>
+            <input 
+            class="form"
+            type="password" 
+            name="senha" 
+            id="senha"
+            required>     
+            <img src="eyeT.png" id="olho" width="34">
+            <br><br>
+            <button type="submit">Entrar</button>
+        </form>
+        
+    </div>
 
-
-body {
-    display: flex;
-    color: rgba(16, 17, 17, 0.815);
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-image: 
-    url("bg.jpg");
-    background-size:cover;
-}
-
-.login {
-    width: 300px;
-    font-size: 25px;
-    background:rgba(255, 255, 255, 0.333);
-    margin-right: auto;
-    margin-left: auto;
-    padding: 100px 200px;
-    border-radius: 3%;
-    align-self: center;
-  }
-
-h1 {
-    text-align: center;
-    padding-bottom: 2vh;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: rgb(25, 28, 39) 1px 1px 1px;
-}
-form {
-    font-size: 25px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: rgb(25, 28, 39) 1px 1px 1px;
-}
-
-
-
-.form {
-    height: 1.8rem;
-    width: 73%;
-}
-p {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    text-align: center;
-    padding-bottom: 0%;
-}
-i {
-    text-shadow: rgb(25, 28, 39) 0.3px 0.3px 0.3px; 
-}
-button {
-    height: 2rem;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgba(255, 255, 255, 0.815);
-    background-color: black;
-    text-shadow: rgb(25, 28, 39) 0.3px 0.3px 0.3px;
-    cursor: pointer;
-    border-color: black;
-    border-radius: 3%;
-}
-button:hover {
-    background: rgb(31, 31, 31);
-    border-color: rgb(31, 31, 31);
-    transition: background-color 0.2s;
-    transition: border-color 0.2s;
-}
-
-
-@media screen and (min-width:900px) and (max-width:1200px){
-    body {
-        background-image: url("bgMobile.jpg");
-        height: 100vh;
-    }
-
-}
+    <script
+    type="text/javascript"
+    src="form.js">
+    </script>
+</body>
+</html>
