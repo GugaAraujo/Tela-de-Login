@@ -7,18 +7,17 @@ body {
     color: rgba(16, 17, 17, 0.815);
     background-repeat: no-repeat;
     height: 100vh;
-    background: linear-gradient(rgb(204, 243, 204), green) 
-
+    background: linear-gradient(rgb(204, 243, 204), rgb(101, 177, 101));
 }
 
 .login {
-    width: 300px;
+  
     font-size: 25px;
     /* background:rgba(255, 255, 255, 0.333); */
     background:rgba(233, 72, 72, 0.333);
     margin-right: auto;
     margin-left: auto;
-    padding: 100px 200px;
+    padding: 100px 80px;
     border-radius: 3%;
     align-self: center;
   }
