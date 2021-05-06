@@ -71,15 +71,11 @@ button:hover {
     transition: background-color 0.2s;
     transition: border-color 0.2s;
 }
-.olho {
-    
-}
-
 
 
 @media screen and (min-width:900px) and (max-width:1200px){
     body {
-        background-size:contain;
+        background-image: url("bgMobile.jpg");
         height: 100vh;
     }
     .login {
