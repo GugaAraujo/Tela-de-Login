@@ -18,7 +18,7 @@ body {
     width: 40vh;
     margin-right: auto;
     margin-left: auto;
-    padding: 60px 50px;
+    padding: 30px 30px;
     border-radius: 3%;
     align-self: center;
   }
@@ -46,6 +46,8 @@ form {
 .form {
     height: 1.8rem;
     width: 85%;
+    border: 1px solid #000000;
+    
 }
 p {
     font-family:Arial, Helvetica, sans-serif;
@@ -78,7 +80,7 @@ button:hover {
 }
 #olho {
     position: absolute;
-    right: 35px;
+    right: 30px;
     bottom: 4px;
     top: 78px;
 }

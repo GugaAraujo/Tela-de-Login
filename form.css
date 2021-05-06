@@ -6,7 +6,8 @@ body {
     display: flex;
     color: rgba(16, 17, 17, 0.815);
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
+    margin-top: 10%;
     background-image: 
     url("bg.jpg");
     background-size:cover;
@@ -19,7 +20,7 @@ body {
     background:rgba(255, 255, 255, 0.333);
     margin-right: auto;
     margin-left: auto;
-    padding: 100px 200px;
+    padding: 60px 100px;
     border-radius: 3%;
     align-self: center;
   }
@@ -46,6 +47,7 @@ form {
 .form {
     height: 1.8rem;
     width: 80%;
+    border: 1px solid #000000;
 }
 p {
     font-family:Arial, Helvetica, sans-serif;
