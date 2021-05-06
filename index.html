@@ -9,6 +9,14 @@
     <link rel="stylesheet" 
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    
+    <link
+    async defer
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous"
+  />
+
       <link rel="stylesheet"
       type="text/css"
       href="form.css">
@@ -17,26 +25,25 @@
 <body>
 
     <div class="login">
-        <h1>Login</h2>
+        <h1>Logo</h1>
+        <p>Login</p>
         <form
         action ="home.html"
         method="POST">
-            <label>Nome:</label>
+            <label><img src="user.png" width="23px"></i></label>
             <input
             class="form"
             type="text"
             name="nome"
             required><br><br>
-            <label>Senha: </label>
+            <label><img src="keyT.png" width="20px"></label>
             <input 
             class="form"
             type="password" 
             name="senha" 
             id="senha"
             required>     
-            <i 
-            id="olho"
-            class="fa fa-eye-slash"></i>
+            <img src="eyeT.png" id="olho" width="34">
             <br><br>
             <button type="submit">Entrar</button>
         </form>
