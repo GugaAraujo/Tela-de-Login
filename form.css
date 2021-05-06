@@ -78,14 +78,5 @@ button:hover {
         background-image: url("bgMobile.jpg");
         height: 100vh;
     }
-    .login {
-        background:rgba(5, 86, 133, 0.233);
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 5%;
-        padding: 10px 100px;
-        border-radius: 3%;
-        align-self:initial;
-        height: 20vh;
-      }
+
 }
