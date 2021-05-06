@@ -45,7 +45,7 @@ form {
 
 .form {
     height: 1.8rem;
-    width: 73%;
+    width: 85%;
 }
 p {
     font-family:Arial, Helvetica, sans-serif;
@@ -78,7 +78,7 @@ button:hover {
 }
 #olho {
     position: absolute;
-    right: 75px;
+    right: 35px;
     bottom: 4px;
     top: 78px;
 }
