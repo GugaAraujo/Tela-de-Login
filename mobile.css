@@ -8,6 +8,7 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
     background: linear-gradient(180deg, rgb(206, 228, 215), rgb(169, 203, 187), rgb(240, 246, 234));
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .login {
@@ -26,18 +27,24 @@ body {
 h1 {
     text-align: center;
     padding-bottom: 2vh;
-    font-family: Arial, Helvetica, sans-serif;
     text-shadow: rgb(25, 28, 39) 1px 1px 1px;
 }
+/* Position Relative permite que o Olho do Password sobresaia */
 form {
     position: relative;
     font-size: 25px;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
     text-shadow: rgb(25, 28, 39) 1px 1px 1px;
 }
+
+a:link {
+    color:#000000
+}
+a:visited {
+    color: #000000;
+}
+
 .link {
-    font-family:Arial, Helvetica, sans-serif;
     font-size: 16px;
     text-align: center;
 }
@@ -50,7 +57,6 @@ form {
     
 }
 p {
-    font-family:Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-align: center;
     padding-bottom: 0%;
@@ -64,7 +70,6 @@ button {
     margin-left: auto;
     margin-right: auto;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
     color: rgba(255, 255, 255, 0.815);
     background-color: black;
     text-shadow: rgb(25, 28, 39) 0.3px 0.3px 0.3px;
@@ -78,6 +83,7 @@ button:hover {
     transition: background-color 0.2s;
     transition: border-color 0.2s;
 }
+/* posicionando Olho do password para dentro do input */
 #olho {
     position: absolute;
     right: 30px;
