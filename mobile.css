@@ -6,9 +6,10 @@ body {
     display: flex;
     color: rgba(16, 17, 17, 0.815);
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 98.2vh;
     background: linear-gradient(180deg, rgb(206, 228, 215), rgb(169, 203, 187), rgb(240, 246, 234));
     font-family:Arial, Helvetica, sans-serif;
+
 }
 
 .login {
@@ -17,11 +18,12 @@ body {
     background:rgba(255, 255, 255, 0.333);
     /* background:rgba(233, 72, 72, 0.333); */
     width: 40vh;
+    margin-top: 5%;
     margin-right: auto;
     margin-left: auto;
     padding: 30px 30px;
     border-radius: 3%;
-    align-self: center;
+    height: 30rem;
   }
 
 h1 {
@@ -86,7 +88,7 @@ button:hover {
 /* posicionando Olho do password para dentro do input */
 #olho {
     position: absolute;
-    right: 30px;
+    right: 5px;
     bottom: 4px;
     top: 78px;
 }
