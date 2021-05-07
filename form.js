@@ -23,5 +23,3 @@ document.getElementById('olho').addEventListener('mousedown', function() {
   document.getElementById('olho').addEventListener('touchemove', function() {
     document.getElementById('senha').type = 'password';
   });
-
-  document.getElementById('olho').ondragstart = function() { return false; };
