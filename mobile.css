@@ -1,10 +1,8 @@
 
 
-html{
-    width: 100%;
-}
 
 body {
+    width: 100%;
     display: flex;
     color: rgba(16, 17, 17, 0.815);
     background-repeat: no-repeat;
