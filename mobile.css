@@ -2,17 +2,18 @@
 
 
 body {
+    height: 98.2vh;
+    min-height:100%;
     display: flex;
     color: rgba(16, 17, 17, 0.815);
     background-repeat: no-repeat;
-    height: 98.2vh;
     background: linear-gradient(180deg, rgb(206, 228, 215), rgb(169, 203, 187), rgb(240, 246, 234));
     font-family:Arial, Helvetica, sans-serif;
+    
 
 }
 
 .login {
-    display: block;
     font-size: 25px;
     background:rgba(255, 255, 255, 0.333);
     /* background:rgba(233, 72, 72, 0.333); */
