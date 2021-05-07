@@ -25,3 +25,7 @@ document.getElementById('olho').addEventListener('mousedown', function() {
   });
 
   document.getElementById('olho').ondragstart = function() { return false; };
+
+
+  // atrasando focus
+  setTimeout(() => this.focus(0), 1000);

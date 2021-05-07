@@ -1,12 +1,6 @@
 
-
-
-html{
-    min-width: 100%;  
-}
 body {
     height: 98.2vh;
-    min-height: 98.2vh;
     display: flex;
     color: rgba(16, 17, 17, 0.815);
     background-repeat: no-repeat;
