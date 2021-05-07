@@ -1,6 +1,9 @@
 
 
 
+html{
+    min-width: 100%;  
+}
 body {
     height: 98.2vh;
     
@@ -18,7 +21,6 @@ body {
     background:rgba(255, 255, 255, 0.333);
     /* background:rgba(233, 72, 72, 0.333); */
     width: 40vh;
-    min-width: 40vh;    
     margin-top: 5%;
     margin-right: auto;
     margin-left: auto;
