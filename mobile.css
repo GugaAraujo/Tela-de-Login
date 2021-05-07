@@ -3,7 +3,7 @@
 
 
 body {
-    display: flex;
+    display:block;
     color: rgba(16, 17, 17, 0.815);
     background-repeat: no-repeat;
     height: 98.2vh;
