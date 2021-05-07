@@ -65,8 +65,9 @@ i {
     text-shadow: rgb(25, 28, 39) 0.3px 0.3px 0.3px; 
 }
 button {
+    display: block;
     height: 2rem;
-    width: 100%;
+    width: 86%;
     margin-left: auto;
     margin-right: auto;
     font-weight: bold;
