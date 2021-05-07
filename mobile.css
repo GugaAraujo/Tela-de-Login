@@ -1,16 +1,19 @@
 
 body {
+    position: relative;
     height: 98.2vh;
     display: flex;
     color: rgba(16, 17, 17, 0.815);
     background-repeat: no-repeat;
     background: linear-gradient(180deg, rgb(206, 228, 215), rgb(169, 203, 187), rgb(240, 246, 234));
     font-family:Arial, Helvetica, sans-serif;
+    padding: 0 0 0 5%;
     
 
 }
 
 .login {
+    position: absolute;
     font-size: 25px;
     background:rgba(255, 255, 255, 0.333);
     /* background:rgba(233, 72, 72, 0.333); */
