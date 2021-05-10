@@ -9,16 +9,8 @@ body {
     
 
 }
-.teste {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    margin-left: 7%;
-
-}
 
 .login {
-    position: absolute;
     font-size: 25px;
     background:rgba(255, 255, 255, 0.333);
     /* background:rgba(233, 72, 72, 0.333); */
