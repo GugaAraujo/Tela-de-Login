@@ -1,6 +1,7 @@
 
 body {
-    height: 625px;
+
+    min-height: 100%;
     display: flex;
     color: rgba(16, 17, 17, 0.815);
     background-repeat: no-repeat;
