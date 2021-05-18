@@ -15,12 +15,12 @@ body {
     background:rgba(255, 255, 255, 0.333);
     /* background:rgba(233, 72, 72, 0.333); */
     width: 300px;
-    margin-top: 5%;
+    margin-top: 15%;
     margin-right: auto;
     margin-left: auto;
     padding: 30px 30px;
     border-radius: 3%;
-    height: 30rem;
+    height: 450px;
   }
 
 h1 {
