@@ -75,7 +75,7 @@ button {
     text-shadow: rgb(25, 28, 39) 0.3px 0.3px 0.3px;
     cursor: pointer;
     border-color: black;
-    border-radius: 3%;
+    border-radius: 5px;
 }
 button:hover {
     background: rgb(31, 31, 31);
