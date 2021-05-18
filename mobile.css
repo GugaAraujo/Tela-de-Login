@@ -1,6 +1,6 @@
 
 body {
-    height: 680px;
+    height: 670px;
     display: flex;
     color: rgba(16, 17, 17, 0.815);
     background: linear-gradient(180deg, rgb(206, 228, 215), rgb(169, 203, 187), rgb(240, 246, 234));
@@ -39,6 +39,7 @@ form {
 ::placeholder {
     padding-left: 10px;
 }
+
 a:link {
     color:#000000
 }
@@ -92,4 +93,3 @@ button:hover {
     bottom: 4px;
     top: 75px;
 }
-
