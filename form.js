@@ -16,7 +16,7 @@ document.getElementById('olho').addEventListener('click', function() {
   //   document.getElementById('senha').type = 'password';
   // });
 
-  document.getElementById('olho').addEventListener('touchstart', function() {
+  document.getElementById('olho').addEventListener('touchenter', function() {
     if (document.getElementById('senha').type == 'password'){
       document.getElementById('senha').type = 'text';
       document.getElementById('olho').src = 'olhoFechado.png';
