@@ -36,7 +36,7 @@ form {
     font-weight: bold;
     text-shadow: rgb(25, 28, 39) 1px 1px 1px;
 }
-::placeholder {
+input {
     padding-left: 10px;
 }
 
