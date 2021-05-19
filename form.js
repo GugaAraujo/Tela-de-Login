@@ -27,8 +27,15 @@ document.getElementById('olho').addEventListener('click', function() {
     }
   });
 
-  document.getElementById('olho').addEventListener('touchend', function() {
-    return false;
+  document.getElementById('olho').addEventListener('touchcancel', function() {
+    if (document.getElementById('senha').type == 'password'){
+      document.getElementById('senha').type = 'text';
+      document.getElementById('olho').src = 'olhoFechado.png';
+    }
+    else if (document.getElementById('senha').type == 'text') {
+      document.getElementById('senha').type = 'password';
+      document.getElementById('olho').src = 'olhoAberto.png';
+    }
   });
 
   // document.getElementById('olho').addEventListener('touchemove', function() {
