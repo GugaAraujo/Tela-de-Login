@@ -39,4 +39,4 @@ document.getElementById('olho').addEventListener('click', function() {
 
 
   // atrasando focus
-  setTimeout(() => this.focus(0), 1000);
+  // setTimeout(() => this.focus(0), 1000);
