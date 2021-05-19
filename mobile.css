@@ -89,7 +89,7 @@ button:hover {
 /* posicionando Olho do password para dentro do input */
 #olho {
     position: absolute;
-    right: 0px;
+    right: 17px;
     bottom: 4px;
     top: 75px;
 }
